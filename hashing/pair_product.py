@@ -15,8 +15,6 @@ def pair_product(numbers: list[int], target_product: int) -> tuple[int, int]:
             return (i, previous[compliment])
 
         previous[num] = i
-        
-
 
 """
 Analysis:
