@@ -17,3 +17,9 @@ def linked_list_values[T](head: Node[T]) -> list[T]:
         current = current.next
     
     return result
+
+"""
+Analysis:
+Time complexity: O(n)
+Space complexity: O(n)
+"""
